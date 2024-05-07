@@ -5,11 +5,8 @@ const random = (min, max) => {
 	return Math.floor(rand);
 };
 
-const questionRequest = expression => {
-	return `Question: ${expression}`;
-};
-
-const answerRequest = () => {
+const answerRequest = expression => {
+	console.log(`Question: ${expression}`);
 	return readlineSync.question('Your answer: ');
 };
 
@@ -19,6 +16,8 @@ const getTaskDescription = game => {
 	else if (game === 'calc') return `What is the result of the expression?`;
 	else if (game === 'gcd')
 		return `Find the greatest common divisor of given numbers.`;
+	else if (game === 'progression')
+		return `What number is missing in the progression?`;
 };
 
 const getEven = expression => {
@@ -48,6 +47,17 @@ const getNod = (a, b) => {
 	return a.toString();
 };
 
+const getProgression = (min, max, step) => {
+	let result = [];
+	const start = random(0, 100);
+	const length = random(min, max);
+	const end = start + step * length;
+	for (let i = start; i <= end; i += step) {
+		result.push(i);
+	}
+	return result;
+};
+
 const checkingAnswer = (correctAnswer, userAnswer, name) => {
 	if (correctAnswer === userAnswer) {
 		console.log('Correct!');
@@ -70,12 +80,12 @@ const checkedFinish = (correctAnswers, name) => {
 
 export {
 	random,
-	questionRequest,
+	getTaskDescription,
 	answerRequest,
-	checkingAnswer,
-	checkedFinish,
 	getEven,
 	getCalc,
 	getNod,
-	getTaskDescription,
+	getProgression,
+	checkingAnswer,
+	checkedFinish,
 };

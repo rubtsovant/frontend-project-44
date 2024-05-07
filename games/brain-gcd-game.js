@@ -1,7 +1,6 @@
 import { getName } from '../src/cli.js';
 import {
 	random,
-	questionRequest,
 	answerRequest,
 	checkingAnswer,
 	checkedFinish,
@@ -17,8 +16,7 @@ const brainGcdGame = () => {
 		const a = random(1, 100);
 		const b = random(1, 100);
 		const expression = `${a} ${b}`;
-		console.log(questionRequest(expression));
-		const userAnswer = answerRequest();
+		const userAnswer = answerRequest(expression);
 		const correctAnswer = getNod(a, b);
 		const checked = checkingAnswer(correctAnswer, userAnswer, name);
 		checked ? (correctAnswers += 1) : (correctAnswers = 0);

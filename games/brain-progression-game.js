@@ -4,18 +4,24 @@ import {
 	answerRequest,
 	checkingAnswer,
 	checkedFinish,
-	getEven,
+	getProgression,
 	getTaskDescription,
 } from '../src/index.js';
 
-const brainEvenGame = () => {
+const brainProgressionGame = () => {
 	const name = getName();
-	console.log(getTaskDescription('even'));
+	console.log(getTaskDescription('progression'));
 	let correctAnswers = 0;
 	while (true) {
-		const expression = random(1, 100);
+		const minLength = 5;
+		const maxLength = 10;
+		const step = random(2, 6);
+		const progression = getProgression(minLength, maxLength, step);
+		const randomIndex = random(0, progression.length - 1);
+		const correctAnswer = progression[randomIndex].toString();
+		progression[randomIndex] = '..';
+		const expression = progression.join(' ');
 		const userAnswer = answerRequest(expression);
-		const correctAnswer = getEven(expression);
 		const checked = checkingAnswer(correctAnswer, userAnswer, name);
 		checked ? (correctAnswers += 1) : (correctAnswers = 0);
 		if (checkedFinish(correctAnswers, name) === true) {
@@ -24,4 +30,4 @@ const brainEvenGame = () => {
 	}
 };
 
-export { brainEvenGame };
+export { brainProgressionGame };

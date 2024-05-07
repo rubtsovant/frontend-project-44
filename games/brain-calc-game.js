@@ -1,7 +1,6 @@
 import { getName } from '../src/cli.js';
 import {
 	random,
-	questionRequest,
 	answerRequest,
 	checkingAnswer,
 	checkedFinish,
@@ -19,8 +18,7 @@ const brainCalcGame = () => {
 		const b = random(1, 25);
 		const sign = signArray[random(0, 2)];
 		const expression = `${a} ${sign} ${b}`;
-		console.log(questionRequest(expression));
-		const userAnswer = answerRequest();
+		const userAnswer = answerRequest(expression);
 		const correctAnswer = getCalc(a, b, sign);
 		const checked = checkingAnswer(correctAnswer, userAnswer, name);
 		checked ? (correctAnswers += 1) : (correctAnswers = 0);
