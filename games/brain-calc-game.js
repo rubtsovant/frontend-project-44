@@ -14,9 +14,11 @@ const brainCalcGame = () => {
 	let correctAnswers = 0;
 	while (true) {
 		const signArray = ['+', '-', '*'];
-		const a = random(1, 25);
-		const b = random(1, 25);
-		const sign = signArray[random(0, 2)];
+		const minValue = 1;
+		const maxValue = 25;
+		const a = random(minValue, maxValue);
+		const b = random(minValue, maxValue);
+		const sign = signArray[random(0, signArray.length - 1)];
 		const expression = `${a} ${sign} ${b}`;
 		const userAnswer = answerRequest(expression);
 		const correctAnswer = getCalc(a, b, sign);

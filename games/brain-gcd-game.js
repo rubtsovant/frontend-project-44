@@ -13,8 +13,10 @@ const brainGcdGame = () => {
 	console.log(getTaskDescription('gcd'));
 	let correctAnswers = 0;
 	while (true) {
-		const a = random(1, 100);
-		const b = random(1, 100);
+		const minValue = 1;
+		const maxValue = 100;
+		const a = random(minValue, maxValue);
+		const b = random(minValue, maxValue);
 		const expression = `${a} ${b}`;
 		const userAnswer = answerRequest(expression);
 		const correctAnswer = getNod(a, b);

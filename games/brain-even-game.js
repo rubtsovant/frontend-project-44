@@ -13,7 +13,9 @@ const brainEvenGame = () => {
 	console.log(getTaskDescription('even'));
 	let correctAnswers = 0;
 	while (true) {
-		const expression = random(1, 100);
+		const minValue = 1;
+		const maxValue = 100;
+		const expression = random(minValue, maxValue);
 		const userAnswer = answerRequest(expression);
 		const correctAnswer = getEven(expression);
 		const checked = checkingAnswer(correctAnswer, userAnswer, name);

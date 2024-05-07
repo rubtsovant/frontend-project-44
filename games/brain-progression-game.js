@@ -13,9 +13,11 @@ const brainProgressionGame = () => {
 	console.log(getTaskDescription('progression'));
 	let correctAnswers = 0;
 	while (true) {
+		const minValueStep = 2;
+		const maxValueStep = 6;
 		const minLength = 5;
 		const maxLength = 10;
-		const step = random(2, 6);
+		const step = random(minValueStep, maxValueStep);
 		const progression = getProgression(minLength, maxLength, step);
 		const randomIndex = random(0, progression.length - 1);
 		const correctAnswer = progression[randomIndex].toString();
