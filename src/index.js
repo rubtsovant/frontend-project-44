@@ -18,6 +18,8 @@ const getTaskDescription = game => {
 		return `Find the greatest common divisor of given numbers.`;
 	else if (game === 'progression')
 		return `What number is missing in the progression?`;
+	else if (game === 'prime')
+		return `Answer "yes" if given number is prime. Otherwise answer "no".`;
 };
 
 const getEven = expression => {
@@ -58,13 +60,20 @@ const getProgression = (min, max, step) => {
 	return result;
 };
 
+const getPrimeNumber = value => {
+	for (let i = 2; i < value; i++) {
+		if (value % i === 0) return 'no';
+	}
+	return 'yes';
+};
+
 const checkingAnswer = (correctAnswer, userAnswer, name) => {
 	if (correctAnswer === userAnswer) {
 		console.log('Correct!');
 		return true;
 	} else {
 		console.log(
-			`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'`
+			`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`
 		);
 		console.log(`Let's try again, ${name}!`);
 		return false;
@@ -86,6 +95,7 @@ export {
 	getCalc,
 	getNod,
 	getProgression,
+	getPrimeNumber,
 	checkingAnswer,
 	checkedFinish,
 };
