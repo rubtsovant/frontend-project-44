@@ -5,19 +5,21 @@ import {
 	answerRequest,
 	checkingAnswer,
 	checkedFinish,
-	getEven,
+	getNod,
 	getTaskDescription,
 } from '../src/index.js';
 
-const brainEvenGame = () => {
+const brainGcdGame = () => {
 	const name = getName();
-	console.log(getTaskDescription('even'));
+	console.log(getTaskDescription('gcd'));
 	let correctAnswers = 0;
 	while (true) {
-		const expression = random(1, 100);
+		const a = random(1, 100);
+		const b = random(1, 100);
+		const expression = `${a} ${b}`;
 		console.log(questionRequest(expression));
 		const userAnswer = answerRequest();
-		const correctAnswer = getEven(expression);
+		const correctAnswer = getNod(a, b);
 		const checked = checkingAnswer(correctAnswer, userAnswer, name);
 		checked ? (correctAnswers += 1) : (correctAnswers = 0);
 		if (checkedFinish(correctAnswers, name) === true) {
@@ -26,4 +28,4 @@ const brainEvenGame = () => {
 	}
 };
 
-export { brainEvenGame };
+export { brainGcdGame };

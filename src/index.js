@@ -13,28 +13,42 @@ const answerRequest = () => {
 	return readlineSync.question('Your answer: ');
 };
 
-const getCorrectAnswer = (game, expression) => {
-	if (game === 'even') {
-		if (expression % 2 === 0) return 'yes';
-		else return 'no';
-	}
-	if (game === 'calc') {
-		const [a, sign, b] = expression.split(' ');
-		switch (sign) {
-			case '+': {
-				return (+a + +b).toString();
-			}
-			case '-': {
-				return (+a - +b).toString();
-			}
-			case '*': {
-				return (+a * +b).toString();
-			}
+const getTaskDescription = game => {
+	if (game === 'even')
+		return `Answer "yes" if the number is even, otherwise answer "no".`;
+	else if (game === 'calc') return `What is the result of the expression?`;
+	else if (game === 'gcd')
+		return `Find the greatest common divisor of given numbers.`;
+};
+
+const getEven = expression => {
+	if (expression % 2 === 0) return 'yes';
+	else return 'no';
+};
+
+const getCalc = (a, b, sign) => {
+	switch (sign) {
+		case '+': {
+			return (a + b).toString();
+		}
+		case '-': {
+			return (a - b).toString();
+		}
+		case '*': {
+			return (a * b).toString();
 		}
 	}
 };
 
-const checkingAnswer = (correctAnswer, userAnswer) => {
+const getNod = (a, b) => {
+	if (b !== 0) {
+		const k = a % b;
+		return getNod(b, k);
+	}
+	return a.toString();
+};
+
+const checkingAnswer = (correctAnswer, userAnswer, name) => {
 	if (correctAnswer === userAnswer) {
 		console.log('Correct!');
 		return true;
@@ -42,6 +56,7 @@ const checkingAnswer = (correctAnswer, userAnswer) => {
 		console.log(
 			`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'`
 		);
+		console.log(`Let's try again, ${name}!`);
 		return false;
 	}
 };
@@ -59,5 +74,8 @@ export {
 	answerRequest,
 	checkingAnswer,
 	checkedFinish,
-	getCorrectAnswer,
+	getEven,
+	getCalc,
+	getNod,
+	getTaskDescription,
 };

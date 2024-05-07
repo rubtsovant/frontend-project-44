@@ -5,12 +5,13 @@ import {
 	answerRequest,
 	checkingAnswer,
 	checkedFinish,
-	getCorrectAnswer,
+	getCalc,
+	getTaskDescription,
 } from '../src/index.js';
 
 const brainCalcGame = () => {
 	const name = getName();
-	console.log(`What is the result of the expression?`);
+	console.log(getTaskDescription('calc'));
 	let correctAnswers = 0;
 	while (true) {
 		const signArray = ['+', '-', '*'];
@@ -20,8 +21,8 @@ const brainCalcGame = () => {
 		const expression = `${a} ${sign} ${b}`;
 		console.log(questionRequest(expression));
 		const userAnswer = answerRequest();
-		const correctAnswer = getCorrectAnswer('calc', expression);
-		const checked = checkingAnswer(correctAnswer, userAnswer);
+		const correctAnswer = getCalc(a, b, sign);
+		const checked = checkingAnswer(correctAnswer, userAnswer, name);
 		checked ? (correctAnswers += 1) : (correctAnswers = 0);
 		if (checkedFinish(correctAnswers, name) === true) {
 			break;
