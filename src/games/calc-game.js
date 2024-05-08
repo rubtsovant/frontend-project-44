@@ -1,19 +1,13 @@
 import getRandomNumber from '../get-random.js';
 import startBrainGames from '../index.js';
 
-const description = `What is the result of the expression?`;
+const description = 'What is the result of the expression?';
 const getCalc = (a, b, sign) => {
-  switch (sign) {
-    case '+': {
-      return (a + b).toString();
-    }
-    case '-': {
-      return (a - b).toString();
-    }
-    case '*': {
-      return (a * b).toString();
-    }
-  }
+	let result = 0;
+	if(sign === '+') result = a + b;
+	if(sign === '-') result = a - b;
+	if(sign === '*') result = a * b;
+	return result.toString()
 };
 
 const brainCalcGame = () => {

@@ -1,7 +1,7 @@
 import getRandomNumber from '../get-random.js';
 import startBrainGames from '../index.js';
 
-const description = `What number is missing in the progression?`;
+const description = 'What number is missing in the progression?';
 const getProgression = (min, max, step) => {
   const result = [];
   const start = getRandomNumber(0, 100);
