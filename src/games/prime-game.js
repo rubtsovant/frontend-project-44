@@ -3,20 +3,20 @@ import startBrainGames from '../index.js';
 
 const description = `Answer "yes" if given number is prime. Otherwise answer "no".`;
 const getPrimeNumber = value => {
-	for (let i = 2; i < value; i++) {
-		if (value % i === 0) return 'no';
-	}
-	return 'yes';
+  for (let i = 2; i < value; i++) {
+    if (value % i === 0) return 'no';
+  }
+  return 'yes';
 };
 
 const brainPrimeGame = () => {
-	const minValue = 1;
-	const maxValue = 100;
-	const question = getRandomNumber(minValue, maxValue);
-	const answer = getPrimeNumber(question);
-	return [question, answer];
+  const minValue = 1;
+  const maxValue = 100;
+  const question = getRandomNumber(minValue, maxValue);
+  const answer = getPrimeNumber(question);
+  return [question, answer];
 };
 
 export default () => {
-	startBrainGames(description, brainPrimeGame);
+  startBrainGames(description, brainPrimeGame);
 };
