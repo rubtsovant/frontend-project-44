@@ -50,9 +50,21 @@ make install
   <dd>Определение простого числа.</dd>
 </dl>
 
-
-https://asciinema.org/a/DNx8Kc98NOGOsXpQAaCfVk8Zw
-https://asciinema.org/a/dH37C6Cxe5USnkG16NpFZEntt
-https://asciinema.org/a/Ij3cMvuSxwO6Qy8AUmJrlIvGL
-https://asciinema.org/a/Aav0NZ46Om3CL3NgTwlMQVzL2
-https://asciinema.org/a/PgE4MgGehTDwkvzBQLBSatc0E
+## Демонстрация игр
+<table>
+  <tr>
+    <th colspan="2">Calculator</th>
+  </tr>
+  <tr>
+    <td>Успех</td>
+    <td>Провал</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://asciinema.org/a/JcvV5ifcV6STOT219czATPoRi" target="_blank"><img src="https://asciinema.org/a/JcvV5ifcV6STOT219czATPoRi.svg" /></a>
+    </td>
+    <td>
+      <a href="https://asciinema.org/a/MMOioD2VYAMA4SKGJQlajZ8ff" target="_blank"><img src="https://asciinema.org/a/MMOioD2VYAMA4SKGJQlajZ8ff.svg" /></a>
+    </td>
+  </tr>
+<table>
