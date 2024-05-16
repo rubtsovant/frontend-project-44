@@ -79,10 +79,10 @@ make install
   </tr>
   <tr>
     <td style="width: 50%;">
-      <a href="https://asciinema.org/a/ODw7zQvThaxcvcbIA3xeY3XfN" target="_blank"><img src="https://asciinema.org/a/ODw7zQvThaxcvcbIA3xeY3XfN" /></a>
+      <a href="https://asciinema.org/a/ODw7zQvThaxcvcbIA3xeY3XfN" target="_blank"><img src="https://asciinema.org/a/ODw7zQvThaxcvcbIA3xeY3XfN.svg" /></a>
     </td>
     <td style="width: 50%;">
-      <a href="https://asciinema.org/a/ifBDP4cMj4Y4xL4AQO9s7wH0i" target="_blank"><img src="https://asciinema.org/a/ifBDP4cMj4Y4xL4AQO9s7wH0i" /></a>
+      <a href="https://asciinema.org/a/ifBDP4cMj4Y4xL4AQO9s7wH0i" target="_blank"><img src="https://asciinema.org/a/ifBDP4cMj4Y4xL4AQO9s7wH0i.svg" /></a>
     </td>
   </tr>
 <table>
@@ -97,10 +97,10 @@ make install
   </tr>
   <tr>
     <td style="width: 50%;">
-      <a href="https://asciinema.org/a/JBFGArwdqN2q68JdWvpUbj5q6" target="_blank"><img src="https://asciinema.org/a/JBFGArwdqN2q68JdWvpUbj5q6" /></a>
+      <a href="https://asciinema.org/a/JBFGArwdqN2q68JdWvpUbj5q6" target="_blank"><img src="https://asciinema.org/a/JBFGArwdqN2q68JdWvpUbj5q6.svg" /></a>
     </td>
     <td style="width: 50%;">
-      <a href="https://asciinema.org/a/nODeUdGoSbg0a3rxrBxk8l8U6" target="_blank"><img src="https://asciinema.org/a/nODeUdGoSbg0a3rxrBxk8l8U6" /></a>
+      <a href="https://asciinema.org/a/nODeUdGoSbg0a3rxrBxk8l8U6" target="_blank"><img src="https://asciinema.org/a/nODeUdGoSbg0a3rxrBxk8l8U6.svg" /></a>
     </td>
   </tr>
 <table>
@@ -115,10 +115,10 @@ make install
   </tr>
   <tr>
     <td style="width: 50%;">
-      <a href="https://asciinema.org/a/BeLE3cQFjkhQZI4ax1U76EtM6" target="_blank"><img src="https://asciinema.org/a/BeLE3cQFjkhQZI4ax1U76EtM6" /></a>
+      <a href="https://asciinema.org/a/BeLE3cQFjkhQZI4ax1U76EtM6" target="_blank"><img src="https://asciinema.org/a/BeLE3cQFjkhQZI4ax1U76EtM6.svg" /></a>
     </td>
     <td style="width: 50%;">
-      <a href="https://asciinema.org/a/U53bUluwUuFuv1AardFqgJHJF" target="_blank"><img src="https://asciinema.org/a/U53bUluwUuFuv1AardFqgJHJF" /></a>
+      <a href="https://asciinema.org/a/U53bUluwUuFuv1AardFqgJHJF" target="_blank"><img src="https://asciinema.org/a/U53bUluwUuFuv1AardFqgJHJF.svg" /></a>
     </td>
   </tr>
 <table>
@@ -133,10 +133,10 @@ make install
   </tr>
   <tr>
     <td style="width: 50%;">
-      <a href="https://asciinema.org/a/NNj4JAGI39AQc0ooaKKpni2Sg" target="_blank"><img src="https://asciinema.org/a/NNj4JAGI39AQc0ooaKKpni2Sg" /></a>
+      <a href="https://asciinema.org/a/NNj4JAGI39AQc0ooaKKpni2Sg" target="_blank"><img src="https://asciinema.org/a/NNj4JAGI39AQc0ooaKKpni2Sg.svg" /></a>
     </td>
     <td style="width: 50%;">
-      <a href="https://asciinema.org/a/WVK8z0LZgpV7m5ySo76CgG1iy" target="_blank"><img src="https://asciinema.org/a/WVK8z0LZgpV7m5ySo76CgG1iy" /></a>
+      <a href="https://asciinema.org/a/WVK8z0LZgpV7m5ySo76CgG1iy" target="_blank"><img src="https://asciinema.org/a/WVK8z0LZgpV7m5ySo76CgG1iy.svg" /></a>
     </td>
   </tr>
 <table>
