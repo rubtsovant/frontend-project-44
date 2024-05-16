@@ -20,12 +20,17 @@
 ## Установка
 <ol>
     <li>Склонировать репозиторий</li>
+    <li>Перейти в папку</li>
     <li>Выполнить команду make install</li>
 </ol>
 
 ```bash
 $ git clone git@github.com:rubtsovant77/frontend-project-44.git
+```
+```bash
 $ cd frontend-project-44
+```
+```bash
 $ make install
 ```
 
