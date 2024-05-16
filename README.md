@@ -32,6 +32,23 @@ make install
 ```
 <a href="https://asciinema.org/a/PKapE2GnnVQEsQILU4MJ6cHj4" target="_blank"><img src="https://asciinema.org/a/PKapE2GnnVQEsQILU4MJ6cHj4.svg" /></a>
 
+## Описание игр
+<dl>
+  <dt>Calculator (brain-calc)</dt>
+  <dd>Арифметические выражения, которые необходимо вычислить.</dd>
+
+  <dt>Arithmetic Progression (brain-progression)</dt>
+  <dd>Поиск пропущенных чисел в последовательности чисел.</dd>
+
+  <dt>Even numbers (brain-even)</dt>
+  <dd>Определение четности числа.</dd>
+
+  <dt>Greatest Common Divisor (brain-gcd)</dt>
+  <dd>Определение наибольшего общего делителя.</dd>
+
+  <dt>Prime numbers (brain-prime)</dt>
+  <dd>Определение простого числа.</dd>
+</dl>
 
 
 https://asciinema.org/a/DNx8Kc98NOGOsXpQAaCfVk8Zw
