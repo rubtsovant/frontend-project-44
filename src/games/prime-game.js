@@ -3,6 +3,7 @@ import startBrainGames from '../index.js';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const getPrimeNumber = (value) => {
+  if (value < 2) return 'no';
   for (let i = 2; i < value; i += 1) {
     if (value % i === 0) return 'no';
   }
