@@ -30,6 +30,8 @@ cd frontend-project-44
 ```bash
 make install
 ```
+<a href="https://asciinema.org/a/PKapE2GnnVQEsQILU4MJ6cHj4" target="_blank"><img src="https://asciinema.org/a/PKapE2GnnVQEsQILU4MJ6cHj4.svg" /></a>
+
 
 
 https://asciinema.org/a/DNx8Kc98NOGOsXpQAaCfVk8Zw
