@@ -92,8 +92,8 @@ make install
     <th colspan="2">Even numbers</th>
   </tr>
   <tr>
-    <td style="width: 50%; text-align: center;">Успех</td>
-    <td style="width: 50%; text-align: center;">Провал</td>
+    <td style="width: 50%, text-align: center;">Успех</td>
+    <td style="width: 50%, text-align: center;">Провал</td>
   </tr>
   <tr>
     <td style="width: 50%;">
