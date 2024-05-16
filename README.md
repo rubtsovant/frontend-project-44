@@ -56,14 +56,14 @@ make install
     <th colspan="2">Calculator</th>
   </tr>
   <tr>
-    <td>Успех</td>
-    <td>Провал</td>
+    <td style="width: 50%;">Успех</td>
+    <td style="width: 50%;">Провал</td>
   </tr>
   <tr>
-    <td>
+    <td style="width: 50%;">
       <a href="https://asciinema.org/a/JcvV5ifcV6STOT219czATPoRi" target="_blank"><img src="https://asciinema.org/a/JcvV5ifcV6STOT219czATPoRi.svg" /></a>
     </td>
-    <td>
+    <td style="width: 50%;">
       <a href="https://asciinema.org/a/MMOioD2VYAMA4SKGJQlajZ8ff" target="_blank"><img src="https://asciinema.org/a/MMOioD2VYAMA4SKGJQlajZ8ff.svg" /></a>
     </td>
   </tr>
