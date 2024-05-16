@@ -20,15 +20,15 @@
 ## Установка
 1. Склонировать репозиторий
 ```bash
-$ git clone git@github.com:rubtsovant77/frontend-project-44.git
+git clone git@github.com:rubtsovant77/frontend-project-44.git
 ```
 2. Перейти в папку с проектом
 ```bash
-$ cd frontend-project-44
+cd frontend-project-44
 ```
 3. Выполнить команду make install
 ```bash
-$ make install
+make install
 ```
 
 
