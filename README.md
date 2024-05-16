@@ -1,8 +1,16 @@
-# Тесты
+<h3 align="center">
+Brain-Games
+</h3>
+<div>
+Набор игр для прокачки мозга
+</div>
 
-[![Actions Status](https://github.com/rubtsovant77/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/rubtsovant77/frontend-project-44/actions) - Hexlet tests and linter status.
+<div align="center">
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/54cbc918938b0b260952/maintainability)](https://codeclimate.com/github/rubtsovant77/frontend-project-44/maintainability) - Оценка Maintainability от Codeclimate.
+[![Actions Status](https://github.com/rubtsovant77/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/rubtsovant77/frontend-project-44/actions) 
+[![Maintainability](https://api.codeclimate.com/v1/badges/54cbc918938b0b260952/maintainability)](https://codeclimate.com/github/rubtsovant77/frontend-project-44/maintainability)
+
+</div>
 
 https://asciinema.org/a/DNx8Kc98NOGOsXpQAaCfVk8Zw
 https://asciinema.org/a/dH37C6Cxe5USnkG16NpFZEntt
