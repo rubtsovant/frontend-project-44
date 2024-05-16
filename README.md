@@ -5,8 +5,9 @@
 <div align="center">
 «Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. 
 </div>
-<br><br>
+<br>
 <div align="center">
+
 [![Actions Status](https://github.com/rubtsovant77/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/rubtsovant77/frontend-project-44/actions) 
 [![Maintainability](https://api.codeclimate.com/v1/badges/54cbc918938b0b260952/maintainability)](https://codeclimate.com/github/rubtsovant77/frontend-project-44/maintainability)
 
