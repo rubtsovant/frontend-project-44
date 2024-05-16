@@ -26,7 +26,7 @@ $ git clone git@github.com:rubtsovant77/frontend-project-44.git
 ```bash
 $ cd frontend-project-44
 ```
-3.Выполнить команду make install
+3. Выполнить команду make install
 ```bash
 $ make install
 ```
