@@ -1,4 +1,4 @@
-import getRandomNumber from '../get-random.js';
+import getRandomNumber from '../utils.js';
 import startBrainGames from '../index.js';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
