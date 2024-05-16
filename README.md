@@ -17,6 +17,19 @@
 
 «Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильный ответ завершает игру.
 
+## Установка
+<ol>
+    <li>Склонировать репозиторий</li>
+    <li>Выполнить команду make install</li>
+</ol>
+
+```bash
+$ git clone git@github.com:rubtsovant77/frontend-project-44.git
+$ cd frontend-project-44
+$ make install
+```
+
+
 https://asciinema.org/a/DNx8Kc98NOGOsXpQAaCfVk8Zw
 https://asciinema.org/a/dH37C6Cxe5USnkG16NpFZEntt
 https://asciinema.org/a/Ij3cMvuSxwO6Qy8AUmJrlIvGL
